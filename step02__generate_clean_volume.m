@@ -1,388 +1,62 @@
-matlabbatch{1}.spm.stats.fmri_spec.dir = {'/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/glm'};
-matlabbatch{1}.spm.stats.fmri_spec.timing.units = 'secs';
-matlabbatch{1}.spm.stats.fmri_spec.timing.RT = 1.66;
-matlabbatch{1}.spm.stats.fmri_spec.timing.fmri_t = 16;
-matlabbatch{1}.spm.stats.fmri_spec.timing.fmri_t0 = 8;
-%%
-matlabbatch{1}.spm.stats.fmri_spec.sess.scans = {
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,1'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,2'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,3'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,4'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,5'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,6'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,7'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,8'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,9'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,10'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,11'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,12'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,13'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,14'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,15'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,16'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,17'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,18'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,19'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,20'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,21'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,22'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,23'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,24'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,25'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,26'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,27'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,28'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,29'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,30'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,31'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,32'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,33'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,34'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,35'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,36'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,37'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,38'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,39'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,40'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,41'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,42'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,43'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,44'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,45'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,46'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,47'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,48'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,49'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,50'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,51'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,52'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,53'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,54'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,55'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,56'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,57'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,58'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,59'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,60'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,61'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,62'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,63'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,64'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,65'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,66'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,67'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,68'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,69'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,70'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,71'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,72'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,73'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,74'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,75'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,76'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,77'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,78'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,79'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,80'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,81'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,82'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,83'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,84'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,85'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,86'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,87'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,88'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,89'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,90'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,91'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,92'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,93'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,94'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,95'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,96'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,97'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,98'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,99'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,100'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,101'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,102'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,103'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,104'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,105'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,106'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,107'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,108'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,109'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,110'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,111'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,112'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,113'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,114'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,115'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,116'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,117'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,118'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,119'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,120'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,121'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,122'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,123'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,124'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,125'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,126'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,127'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,128'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,129'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,130'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,131'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,132'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,133'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,134'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,135'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,136'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,137'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,138'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,139'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,140'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,141'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,142'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,143'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,144'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,145'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,146'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,147'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,148'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,149'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,150'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,151'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,152'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,153'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,154'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,155'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,156'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,157'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,158'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,159'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,160'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,161'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,162'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,163'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,164'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,165'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,166'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,167'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,168'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,169'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,170'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,171'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,172'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,173'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,174'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,175'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,176'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,177'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,178'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,179'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,180'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,181'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,182'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,183'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,184'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,185'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,186'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,187'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,188'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,189'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,190'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,191'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,192'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,193'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,194'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,195'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,196'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,197'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,198'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,199'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,200'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,201'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,202'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,203'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,204'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,205'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,206'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,207'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,208'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,209'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,210'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,211'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,212'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,213'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,214'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,215'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,216'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,217'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,218'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,219'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,220'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,221'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,222'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,223'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,224'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,225'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,226'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,227'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,228'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,229'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,230'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,231'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,232'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,233'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,234'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,235'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,236'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,237'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,238'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,239'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,240'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,241'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,242'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,243'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,244'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,245'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,246'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,247'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,248'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,249'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,250'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,251'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,252'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,253'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,254'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,255'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,256'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,257'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,258'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,259'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,260'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,261'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,262'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,263'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,264'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,265'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,266'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,267'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,268'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,269'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,270'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,271'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,272'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,273'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,274'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,275'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,276'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,277'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,278'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,279'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,280'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,281'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,282'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,283'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,284'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,285'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,286'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,287'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,288'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,289'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,290'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,291'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,292'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,293'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,294'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,295'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,296'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,297'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,298'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,299'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,300'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,301'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,302'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,303'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,304'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,305'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,306'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,307'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,308'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,309'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,310'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,311'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,312'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,313'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,314'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,315'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,316'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,317'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,318'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,319'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,320'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,321'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,322'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,323'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,324'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,325'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,326'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,327'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,328'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,329'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,330'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,331'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,332'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,333'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,334'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,335'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,336'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,337'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,338'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,339'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,340'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,341'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,342'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,343'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,344'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,345'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,346'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,347'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,348'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,349'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,350'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,351'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,352'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,353'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,354'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,355'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,356'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,357'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,358'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,359'
-                                                 '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/s5wts_OC.nii,360'
-                                                 };
-%%
-matlabbatch{1}.spm.stats.fmri_spec.sess.cond = struct('name', {}, 'onset', {}, 'duration', {}, 'tmod', {}, 'pmod', {}, 'orth', {});
-matlabbatch{1}.spm.stats.fmri_spec.sess.multi = {''};
-matlabbatch{1}.spm.stats.fmri_spec.sess.regress = struct('name', {}, 'val', {});
-matlabbatch{1}.spm.stats.fmri_spec.sess.multi_reg = {'/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti/2022_05_12_MUSIQUE_830_V1/S09_RS/tedana0011_bvt/multiple_regressors.txt'};
-matlabbatch{1}.spm.stats.fmri_spec.sess.hpf = 128;
-matlabbatch{1}.spm.stats.fmri_spec.fact = struct('name', {}, 'levels', {});
-matlabbatch{1}.spm.stats.fmri_spec.bases.hrf.derivs = [0 0];
-matlabbatch{1}.spm.stats.fmri_spec.volt = 1;
-matlabbatch{1}.spm.stats.fmri_spec.global = 'None';
-matlabbatch{1}.spm.stats.fmri_spec.mthresh = 0.1;
-matlabbatch{1}.spm.stats.fmri_spec.mask = {''};
-matlabbatch{1}.spm.stats.fmri_spec.cvi = 'AR(1)';
-matlabbatch{2}.spm.stats.fmri_est.spmmat(1) = cfg_dep('fMRI model specification: SPM.mat File', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
-matlabbatch{2}.spm.stats.fmri_est.write_residuals = 1;
-matlabbatch{2}.spm.stats.fmri_est.method.Classical = 1;
-matlabbatch{3}.spm.util.cat.vols(1) = cfg_dep('Model estimation: Residual Images', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','res'));
-matlabbatch{3}.spm.util.cat.name = 'clean4D.nii';
-matlabbatch{3}.spm.util.cat.dtype = 0;
-matlabbatch{3}.spm.util.cat.RT = 1.66;
+clear
+clc
+
+load e
+
+model_dir = e.mkdir('glm');
+input_file = e.getSerie('run_RS').getVolume('s5w').getPath();
+noisereg_file = e.getSerie('run_RS').getRP('multiple_regressors').getPath();
+
+nRun = length(model_dir);
+
+for iRun = 1 : nRun
+    
+    if spm_existfile(fullfile(model_dir{iRun},'SPM.mat'))
+        fprintf('skip %d/%d : %s \n', iRun, nRun, model_dir{iRun})
+        continue
+    else
+        fprintf('run %d/%d : %s \n', iRun, nRun, model_dir{iRun})
+    end
+    
+    matlabbatch = [];
+    
+    %%%
+    matlabbatch{1}.spm.stats.fmri_spec.dir = model_dir(iRun);
+    %%%
+    
+    matlabbatch{1}.spm.stats.fmri_spec.timing.units = 'secs';
+    matlabbatch{1}.spm.stats.fmri_spec.timing.RT = 1.66;
+    matlabbatch{1}.spm.stats.fmri_spec.timing.fmri_t = 16;
+    matlabbatch{1}.spm.stats.fmri_spec.timing.fmri_t0 = 8;
+    
+    %%%
+    matlabbatch{1}.spm.stats.fmri_spec.sess.scans = spm_select('expand', input_file(iRun));
+    %%%
+    
+    matlabbatch{1}.spm.stats.fmri_spec.sess.cond = struct('name', {}, 'onset', {}, 'duration', {}, 'tmod', {}, 'pmod', {}, 'orth', {});
+    matlabbatch{1}.spm.stats.fmri_spec.sess.multi = {''};
+    matlabbatch{1}.spm.stats.fmri_spec.sess.regress = struct('name', {}, 'val', {});
+    
+    %%%
+    matlabbatch{1}.spm.stats.fmri_spec.sess.multi_reg = noisereg_file(iRun);
+    %%%
+    
+    matlabbatch{1}.spm.stats.fmri_spec.sess.hpf = 128;
+    matlabbatch{1}.spm.stats.fmri_spec.fact = struct('name', {}, 'levels', {});
+    matlabbatch{1}.spm.stats.fmri_spec.bases.hrf.derivs = [0 0];
+    matlabbatch{1}.spm.stats.fmri_spec.volt = 1;
+    matlabbatch{1}.spm.stats.fmri_spec.global = 'None';
+    matlabbatch{1}.spm.stats.fmri_spec.mthresh = 0.1;
+    matlabbatch{1}.spm.stats.fmri_spec.mask = {''};
+    matlabbatch{1}.spm.stats.fmri_spec.cvi = 'AR(1)';
+    matlabbatch{2}.spm.stats.fmri_est.spmmat(1) = cfg_dep('fMRI model specification: SPM.mat File', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+    matlabbatch{2}.spm.stats.fmri_est.write_residuals = 1;
+    matlabbatch{2}.spm.stats.fmri_est.method.Classical = 1;
+    matlabbatch{3}.spm.util.cat.vols(1) = cfg_dep('Model estimation: Residual Images', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','res'));
+    matlabbatch{3}.spm.util.cat.name = 'clean4D.nii';
+    matlabbatch{3}.spm.util.cat.dtype = 0;
+    matlabbatch{3}.spm.util.cat.RT = 1.66;
+    
+    spm_jobman('run',matlabbatch)
+    
+end

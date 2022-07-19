@@ -8,8 +8,8 @@ clear
 main_dir = '/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/nifti';
 addpath('/network/lustre/iss02/cenir/analyse/irm/users/benoit.beranger/MUSIQUE/MB')
 
-% e = exam(main_dir, 'MUSIQUE'); % all subjects with multi-echo
-e = exam(main_dir, 'MUSIQUE_830_V1'); % all subjects with multi-echo
+e = exam(main_dir, 'MUSIQUE'); % all subjects with multi-echo
+% e = exam(main_dir, 'MUSIQUE_830_V1'); % all subjects with multi-echo
 
 
 %% Get files paths #matvol
@@ -356,6 +356,9 @@ else
     par.sge = 0;
 end
 job_afni_remove_nan( run_all.getVolume('^wts_OC'), par );
+if CLUSTER
+    run_all.addVolume('ted','^nwts_OC', 'nwts_OC',1)
+end
 %--------------------------------------------------------------------------
 
 volume_phy_ok = run_phy_ok.getVolume('^nwts_OC');
